@@ -15,4 +15,4 @@ RUN cd $home \
   && git clone https://github.com/ActualAdam/dotfiles.git \
   && stow -d $home/dotfiles bash vi emacs 
 
-CMD "/bin/bash"
+CMD "/bin/bash; cd ~"
